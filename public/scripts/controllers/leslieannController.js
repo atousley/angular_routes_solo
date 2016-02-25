@@ -1,4 +1,4 @@
-myApp.controller('SerenablairController', ['$scope', function($scope) {
+myApp.controller('LeslieannController', ['$scope', function($scope) {
 
     $scope.showThis = false
     $scope.showPhoto = function () {

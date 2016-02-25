@@ -7,7 +7,8 @@ myApp.config(['$routeProvider', function($routeProvider) {
             templateUrl: '/views/templates/home.html'
         })
         .when('/leslie', {
-            templateUrl: '/views/templates/leslie.html'
+            templateUrl: '/views/templates/leslie.html',
+            controller: 'LeslieannController'
         })
         .when('/broadcity', {
             templateUrl: '/views/templates/broadcity.html'
