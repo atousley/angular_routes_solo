@@ -8,17 +8,19 @@ myApp.config(['$routeProvider', function($routeProvider) {
         })
         .when('/leslie', {
             templateUrl: '/views/templates/leslie.html',
-            controller: 'LeslieannController'
+            controller: 'ImageController'
         })
         .when('/broadcity', {
-            templateUrl: '/views/templates/broadcity.html'
+            templateUrl: '/views/templates/broadcity.html',
+            controller: 'ImageController'
         })
         .when('/daria', {
-            templateUrl: '/views/templates/daria.html'
+            templateUrl: '/views/templates/daria.html',
+            controller: 'ImageController'
         })
         .when('/serenablair', {
             templateUrl: '/views/templates/serenablair.html',
-            controller: 'SerenablairController'
+            controller: 'ImageController'
         })
         .otherwise({
             redirectTo: 'home'

@@ -59,11 +59,16 @@ footer {
 main h1 {
     font-size: 40px;
     font-weight: 700;
-    padding: 10px 0;
+    padding: 10px 5px;
+    background-color: #FF748C;
+}
+
+.home_intro h1 {
+    background-color: #317B91;
 }
 
 main p {
-    padding: 5px 0 10px 0;
+    padding: 5px 10px 10px 10px;
     text-align: center;
     font-size: 18px;
 }
@@ -71,20 +76,27 @@ main p {
 img {
     display: block;
     margin: 0 auto;
+    padding-bottom: 10px;
 }
 
-.intro {
+.intro p {
     padding: 25px;
     font-size: 20px;
 }
 
+.intro_section {
+    background-color: #FF748C;
+    padding: 5px 5px 15px 5px;
+}
+
 .gg_button {
+    text-decoration: none;
+    outline: 0;
     font-family: 'BenchNine', Arial, sans-serif;
     font-size: 15px;
     display: block;
     width: 130px;
-    margin: 20px auto;
-    padding: 3px;
+    margin: 20px auto 10px auto;
     color: white;
     background-color: #333;
 }
@@ -93,3 +105,4 @@ img {
     padding: 5px 5px 10px 5px;
     background-color: #317B91;
 }
+
